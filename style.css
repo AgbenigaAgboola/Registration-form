@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+/*   padding: 0; */
+  margin: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+/*   font:  14px/40px arial; */
+}
+body{
+  background: url("images/bg-intro-desktop.png") rgba(255, 122, 122, 1);
+  background-size:cover;
+  background-blend-mode: multiply;
+  height: fit-content;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: ;
+  
+}
+.reg_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+	  align-items: center;
+    overflow: hidden;
+	  min-height: 90vh;
+    width: 100%;;
+}
+.side_pan{
+  color: white;
+  /* margin: 0 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-;
+}
+.side_head{
+  text-align: left;
+  font-size: 47px;
+  font-weight: 900;
+  line-heiht: 60px;
+}
+.side_text{
+  line-height: 30px;
+  max-width: 550px;
+}
+.main_pan, .reg_box{
+  color: white;
+  text-align: center;
+  padding-top:;
+  background: hsl(248, 32%, 49%);
+  width: 500px;
+  border-radius:10px;
+  box-shadow: 0px 10px rgb(135, 135, 135, 0.16);
+  margin: auto;
+  padding: 15px;
+  font-size:14px;
+}
+.main_pan span{
+  font-weight: bold;
+  
+}
+.reg_box{
+  margin-top: 20px;
+  background: white;
+  padding-bottom: 40px;
+}
+.wrapper{
+  borer: 1px solid black;
+}
+.reg_box input, .contact_button{
+  border: 1px solid rgb(62, 60, 73, 0.2);
+  border-radius: 7px;
+  width: 430px;
+  margin: auto;
+  font-size: 14px;
+  padding: 15px;
+  margin-top: 15px;
+  padding-left: 40px;
+}
+.reg_box input::placeholder {
+  font-weight: bold;
+}
+.contact_button{
+  background: hsl(154, 59%, 51%);
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0px 10px rgb(135, 135, 135, 0.16);
+}
+.form_footer{
+  color:rgb(0, 0, 0, 0.4);
+  font-size: 11px;
+  margin-top: 15px;
+}
+.terms{
+  color: rgb(255, 122, 122, 1);
+  font-weight: 700;
+  
+}
+
+@media(max-width:1024px){
+  .reg_page{
+    flex-direction: column;
+    text-align: center;
+	  align-items: center;
+    overfow: hidden;
+	  min-height: 90vh;
+    width: 100%;;
+}
+.side_head{
+  text-align: center;
+  font-size: 47px;
+  font-weight: 900;
+  line-heiht: 60px;
+}
+}
+@media(max-width:500px){
+  body{
+    background: url("images/bg-intro-mobile.png") rgba(255, 122, 122, 1);
+    background-size:cover;
+    background-blend-mode: multiply;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    padding: ;
+    
+  }
+  .reg_page{
+  	  min-height: auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.side_head{
+   font-size: 7vw;
+  font-weight: 900;
+  }
+.side_text{
+  line-height: 5vw;
+  max-width: 80vw;
+}
+.main_pan, .reg_box{
+  color: white;
+  text-align: center;
+  padding-top:;
+  background: hsl(248, 32%, 49%);
+  width: 100%;
+  border-radius:10px;
+  margin: auto;
+  padding: 15px;
+  font-size:3vw;
+}
+
+.reg_box{
+  margin-top: 20px;
+  background: white;
+  padding-bottom: 40px;
+}
+
+.reg_box input, .contact_button{
+  border: 1px solid rgb(62, 60, 73, 0.2);
+  border-radius: 7px;
+  width: 100%;
+  margin: auto;
+  font-size: 3vw;
+  padding: 15px;
+  margin-top: 15px;
+  padding-left: 40px;
+}
+.reg_box input::placeholder {
+  font-weight: bold;
+}
+.contact_button{
+  font-size: 3vw;
+}
+.form_footer{
+  font-size: 2vw;
+
+}
+
+}
